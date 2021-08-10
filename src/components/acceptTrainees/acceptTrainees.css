@@ -1,0 +1,110 @@
+#trainers {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.container {
+    width: 90%;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+}
+.table {
+    margin-top: 140px;
+}
+
+
+.btn-nueva {
+    margin: 5px 10px;
+}
+
+.statusContainer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.statusTab {
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 800px;
+    height: 100;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    z-index: 2;
+    border: 1px solid rgba(245, 245, 245, 0.897);
+    border-radius: 2px;
+    height: auto;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 300px;
+    overflow-x:hidden ;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.reasonContainer {
+        width: 80%;
+        height: 208px;
+        resize: none;
+        border: 0;
+        border: 1px solid #2E2F22;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        padding: 20px;
+      
+
+}
+
+.btnsContainer {
+    margin: 10px;
+}
+
+.reasonContainer:focus {
+    outline: default
+}
+
+.dateComponent {
+    margin: 20px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    #trainers {
+        padding: 0
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .table {
+        margin-top: auto;
+    
+    }
+    
+    
+    .btn-nueva {
+        margin: 5px 10px;
+    }
+    
+
+}

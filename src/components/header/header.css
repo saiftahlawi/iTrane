@@ -1,0 +1,122 @@
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    -webkit-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    background-color: #f8f8f8;
+
+
+  }
+
+  .header__avatar {
+      font-weight: bold;
+  }
+  
+  /* Make room for the menu icon on mobile */
+
+  .bellContainer {
+    width: auto;
+    overflow-y: scroll;
+
+  }
+  
+
+  .bellBallContainer {
+    position: relative;
+  }
+
+  .bellBall {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 400px;
+    background: rgb(255, 39, 39);
+    position: absolute;
+    top: 0;
+    margin-top: -15px;
+    margin-right: 5px;
+    right: 0;
+  }
+  
+  .notify {
+    margin: 10px auto;
+    min-height: 50px;
+    width: 95%;
+    cursor: default;
+    vertical-align: middle;
+    padding: 12px 7px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+
+
+  .notify:hover  {
+    background-color: rgb(211, 211, 211) !important;
+  }
+
+  .notify p {
+    width: 80%; 
+    display: inline-block;
+  }
+
+  .crossContainer {
+    display: inline-block;  
+
+  }
+
+  .cross {
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+
+  .fa-bell:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .extendBell {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    -webkit-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px -10px rgba(0,0,0,0.75);
+    z-index: 2;
+    right: 0;
+    margin-right: 20px;
+    border: 1px solid rgba(245, 245, 245, 0.897);
+    border-radius: 2px;
+  }
+
+  .extendBellContent {
+    padding: 10px 0;
+    font-weight: bold;
+    max-height: 400px;
+    overflow-y: scroll;
+
+    box-sizing: border-box;
+  }
+
+  .cross {
+    color: rgb(128, 128, 128);
+  margin-left: 24px;
+  margin-bottom:15px ;
+  }
+
+  .cross:hover {
+    color: rgb(82, 82, 82);
+  }
+
+  /* Non-mobile styles, 750px breakpoint */
+  @media only screen and (min-width: 46.875em) {
+    .header__search {
+      margin-left: 0;
+    }
+  }
+  

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(70, 70, 70);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Assign grid instructions to our parent grid container, mobile-first (hide the sidenav) */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  height: 100vh;
+}
+
+.menu-icon {
+  position: fixed; /* Needs to stay visible for all mobile scrolling */
+  display: flex;
+  top: 5px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #DADAE3;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
+}
